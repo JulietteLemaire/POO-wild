@@ -71,7 +71,7 @@ class Truck extends Vehicle
     {
         $sentence = "";
         while ($this->load < $this->storageCapacity) {
-            $this->load+5;
+            $this->load+=5;
             $sentence .= "in filling";
         }
         $sentence .= "It's FULL !!!";
